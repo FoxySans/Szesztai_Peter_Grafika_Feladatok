@@ -3,7 +3,7 @@
 
 #include "pong.h"
 
-#include <C:/C/c_sdk_220203/MinGW/include/SDL2/SDL.h>
+#include <C:\Users\szesz\Documents\Egyetemi_cuccok\IV_Felev\PC_Graphics\c_sdk_220203\MinGW\include\SDL2\SDL.h>
 
 /**
  * Game state representation
