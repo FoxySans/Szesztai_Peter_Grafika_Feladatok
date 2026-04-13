@@ -1,0 +1,39 @@
+#ifndef SCENE_H
+#define SCENE_H
+
+#include "camera.h"
+#include "math.h"
+
+typedef struct Scene
+{
+} Scene;
+
+/**
+ * Initialize the scene by loading models.
+ */
+void init_scene(Scene* scene);
+
+/**
+ * Update the scene.
+ */
+void update_scene(Scene* scene);
+
+/**
+ * Render the scene objects.
+ */
+void render_scene(const Scene* scene);
+
+/**
+ * Draw the origin of the world coordinate system.
+ */
+void draw_origin();
+
+void draw_sphere(float radius, int slices, int stacks);
+
+void draw_checkerboard();
+
+void draw_cylinder(float radius, float height, int nr_points);
+
+void draw_cone(float radius, float height, int nr_points);
+
+#endif /* SCENE_H */
